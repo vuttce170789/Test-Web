@@ -1,0 +1,68 @@
+body{
+    overflow-x: hidden;
+}
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+    height: 80px;
+    margin: 12px 0px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+}
+
+.sellter-item img {
+    width: 100%;
+}
+.sellter-item-content{
+    background-color: antiquewhite;
+    padding: 15px;
+    position: relative;
+}
+.sellter-item-new{
+    position: absolute;
+    background-color: rgba(179, 179, 179,0.5);
+    left:  0;
+    bottom: 0;
+    color: white;
+}
+.sale-content{
+background-color: antiquewhite;
+
+}
+.sale-content p:first-child{
+    border-bottom: 1px solid black;
+}
+.sale-content span:first-child{
+    font-weight: bold;
+}
+.sale-content del+span{
+    color: red;
+}
+.sale-off img {
+    width: 100%;
+}
+
+.info-web-img img{
+    width: 100%;
+}
+.info-web iframe{
+    width: 100%;
+    height: 416px;
+}
+
+.last-page{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
